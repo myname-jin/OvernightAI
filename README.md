@@ -12,6 +12,7 @@ AI를 활용하여 **발표를 녹음하고**, 기준에 따라 **자동 채점 
 - 🧠 GPT API 기반 채점 및 피드백 생성
 - 📄 채점 결과 PDF, Excel 저장
 - 📊 점수 시각화 페이지 제공
+<img width="435" height="355" alt="image" src="https://github.com/user-attachments/assets/9ef12d7b-0d6a-49d3-8e87-9f55fe03ba9c" />
 
 ---
 
