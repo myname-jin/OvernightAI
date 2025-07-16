@@ -4,6 +4,16 @@ AI를 활용하여 **발표를 녹음하고**, 기준에 따라 **자동 채점 
 이 저장소는 팀 프로젝트를 바탕으로 **개인 포트폴리오용으로 정리**되었습니다.
 
 ---
+## 🌐 시스템 개요
+
+AI 발표 채점 시스템은 다음과 같은 흐름으로 작동합니다:
+
+> 발표자 → [🎙 녹음] → [🧠 AI 분석] → [📄 점수 & 피드백 제공]
+
+📌 **전체 시스템 UI 흐름 예시:**  
+![전체 흐름 UI](frontend/image/ui_overview.jpg)  <!-- ← 이미지 파일 직접 연결 -->
+
+---
 
 ## 🚀 주요 기능
 
@@ -12,19 +22,25 @@ AI를 활용하여 **발표를 녹음하고**, 기준에 따라 **자동 채점 
 - 🧠 GPT API 기반 채점 및 피드백 생성
 - 📄 채점 결과 PDF, Excel 저장
 - 📊 점수 시각화 페이지 제공
-<img width="435" height="355" alt="image" src="https://github.com/user-attachments/assets/9ef12d7b-0d6a-49d3-8e87-9f55fe03ba9c" />
 
----
+
+--- 
 
 ## 🛠 기술 스택
 
-| 분류       | 기술 스택                                |
-|------------|-------------------------------------------|
-| 백엔드     | Python, Flask, Whisper, OpenAI GPT       |
-| 프론트엔드 | Streamlit                                 |
-| 기타       | ReportLab (PDF), OpenPyXL (Excel), Matplotlib (시각화)
+![시스템 아키텍처](frontend/image/system_architecture.jpg)  <!-- 이 이미지가 지금 네가 업로드한 파일이야 -->
+
+| 구분       | 내용 |
+|------------|------|
+| 언어       | Python |
+| 웹 프레임워크 | Flask (서버), Streamlit (클라이언트) |
+| AI 모델    | Whisper (STT), ChatGPT (OpenAI API) |
+| 시각화     | Matplotlib |
+| 결과 저장  | ReportLab (PDF), OpenPyXL (Excel) |
 
 ---
+
+
 
 ## 📁 프로젝트 구조
 
