@@ -6,41 +6,43 @@ AI를 활용하여 **발표를 녹음하고**, 기준에 따라 **자동 채점 
 ---
 ## 🌐 시스템 개요
 
-AI 발표 채점 시스템은 다음과 같은 흐름으로 작동합니다:
+**AI 발표 채점 시스템**은 다음과 같은 흐름으로 작동합니다:
 
-> 발표자 → [🎙 녹음] → [🧠 AI 분석] → [📄 점수 & 피드백 제공]
+> 발표자 → 🎙 녹음 → 🧠 AI 분석 → 📄 점수 및 피드백 제공
 
-📌 **전체 시스템 UI 흐름 예시:**  
-![전체 흐름 UI](readmeimg/MainUi.png)  <!-- ← 이미지 파일 직접 연결 -->
+Streamlit 기반 웹 UI에서 사용자가 녹음을 시작하면, Whisper AI가 음성을 텍스트로 변환하고, 변환된 텍스트는 ChatGPT API를 통해 분석되어 각 항목별 점수와 피드백이 생성됩니다. 결과는 PDF 및 Excel로 저장되고, Streamlit을 통해 시각화됩니다.
 
 ---
 
-## 🚀 주요 기능
+## 🧭 시스템 흐름 및 기술 아키텍처
 
-- 🎙 발표 녹음 (웹 UI)
-- 🔁 Whisper 기반 음성 → 텍스트 변환
-- 🧠 GPT API 기반 채점 및 피드백 생성
-- 📄 채점 결과 PDF, Excel 저장
-- 📊 점수 시각화 페이지 제공
+📌 아래 이미지는 **전체 시스템 흐름**과 동시에 사용된 주요 기술들을 한눈에 보여줍니다:
 
+![시스템 흐름 및 아키텍처](readmeimg/systempage.png)
 
---- 
+---
 
-## 🛠 기술 스택
+## ⚙️ 사용 기술 스택
 
-![시스템 아키텍처](frontend/image/system_architecture.jpg)  <!-- 이 이미지가 지금 네가 업로드한 파일이야 -->
-
-| 구분       | 내용 |
-|------------|------|
-| 언어       | Python |
+| 항목         | 내용 |
+|--------------|------|
+| 언어         | Python |
 | 웹 프레임워크 | Flask (서버), Streamlit (클라이언트) |
-| AI 모델    | Whisper (STT), ChatGPT (OpenAI API) |
-| 시각화     | Matplotlib |
-| 결과 저장  | ReportLab (PDF), OpenPyXL (Excel) |
+| 음성 인식    | Whisper AI (OpenAI) |
+| 채점 모델    | ChatGPT (OpenAI API) |
+| 프론트엔드   | Streamlit + HTML/CSS/JS |
+| 결과 저장    | ReportLab (PDF), OpenPyXL (Excel) |
+| 시각화       | Matplotlib (Streamlit 내부 차트 출력) |
 
 ---
 
+## 💡 주요 기능 요약
 
+- 🎙 웹 기반 발표 녹음
+- 🧠 Whisper를 이용한 음성 → 텍스트 변환
+- 🤖 GPT-4 기반 자동 채점 및 피드백
+- 📄 PDF 및 Excel로 결과 저장
+- 📊 점수 시각화 (Streamlit UI)
 
 ## 📁 프로젝트 구조
 
