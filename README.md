@@ -19,7 +19,7 @@ Streamlit 기반 웹 UI에서 사용자가 녹음을 시작하면, Whisper AI가
 📌 아래 이미지는 **전체 시스템 흐름**과 동시에 사용된 주요 기술들을 한눈에 보여줍니다:
 
 <p align="center">
-  <img src="readmeimg/systempage.png" alt="시스템 아키텍처" width="700"/>
+  <img src="readmeimg/systempage1.png" alt="시스템 아키텍처" width="700"/>
 </p>
 
 ---
