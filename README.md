@@ -2,8 +2,43 @@
 # 🌓 OvernightAI – AI 발표 자동 채점 시스템
 
 AI를 활용하여 **발표를 녹음하고**, 기준에 따라 **자동 채점 및 피드백을 생성**하는 발표 평가 시스템입니다.  
-총 4명의 개발자가 참여하여 프로그램을 만들었습니다. 
+2025 동의 **AI·SW융합 해커톤대회** 참여 작품입니다.  
+## 👨‍💻 담당 역할
 
+저는 본 프로젝트의 **팀장**으로서 전체 시스템을 설계하고, 주로 **백엔드 개발**을 담당하였습니다. 
+
+- 📝 **채점 기준 저장 및 불러오기** 기능 구현 (JSON 기반)
+- 📊 **시각화 기능** 개발 (점수 분석 결과 시각적 출력)
+- 🧠 **Whisper STT**를 활용한 음성 텍스트 변환 처리
+- 🤖 **OpenAI GPT 모델 연동**을 통한 자동 채점 및 피드백 생성
+- 🌐 **Flask 기반 서버 구축**
+
+---
+## 📸 대회 현장 스케치
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="readmeimg/무박2일참여.jpg" alt="무박 2일 대회 참여" height="400"/><br>무박 2일 대회 참여
+    </td>
+    <td align="center">
+      <img src="readmeimg/상장수여.jpg" alt="상장 수여" height="400"/><br>상장 수여
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="readmeimg/상장수여2.jpg" alt="시상식 전경" height="400"/><br>시상식 전경
+    </td>
+    <td align="center">
+      <img src="readmeimg/기념사진.jpg" alt="단체 기념 사진" height="400"/><br>단체 기념 사진
+    </td>
+  </tr>
+</table>
+> 👨‍💻 아이디어 구상부터 발표까지, OvernightAI 팀의 대회 참여 현장 모습입니다.
+
+---
+
+📽️ [OvernightAI 발표 PPT 다운로드](assets/presentation.pptx)
 
 ---
 ## 🧾 프로그램 소개
@@ -111,6 +146,39 @@ Streamlit 기반 웹 UI에서 사용자가 녹음을 시작하면, Whisper AI가
 
 ---
 
+## 🚀 실행 방법
+
+> 💡 아래 순서대로 진행하면 **백엔드 서버 + 프론트엔드 UI**가 연결된 채점 시스템을 실행할 수 있습니다.
+
+---
+
+### 1️⃣ OpenAI API 키 입력
+
+`backend/openai_grader.py` 파일을 열고 아래 코드의 `""` 안에 본인의 OpenAI GPT API 키를 입력해야 합니다.
+
+해당 코드 openai.api_key = "" 
+
+---
+
+2️⃣ 백엔드 서버 실행 (Flask)
+VSCode의 터미널에서 backend 폴더로 이동후
+
+아래 명령어 실행:
+<br><b>python app.py</b></br>
+
+---
+
+3️⃣ 프론트엔드 실행 (Streamlit)
+새로운 VSCode의 터미널을 열고 frontend 폴더로 이동
+
+다음 명령어 실행 : 
+<br><b>streamlit run OvernightAI.py</b></br>
+
+
+
+> <h3> 🌐 웹 브라우저가 자동으로 열리며, OvernightAI 발표 채점 시스템이 실행됩니다.</h3>
+
+---
 ## 📁 프로젝트 구조
 
 <pre>
