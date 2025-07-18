@@ -136,7 +136,34 @@ Streamlit 기반 웹 UI에서 사용자가 녹음을 시작하면, Whisper AI가
 </table>
 
 ---
+ ## 📦 필수 라이브러리 설치 안내
 
+- 💡 프로젝트를 정상 실행하려면 아래 라이브러리들을 설치해야 합니다.  
+-  VSCode 터미널에서 아래 명령어를 차례대로 입력하세요.
+```bash
+pip install openai
+pip install streamlit
+pip install matplotlib
+pip install pandas
+pip install fpdf
+pip install librosa
+pip install soundfile
+```
+
+---
+
+| 라이브러리     | 역할 설명 |
+|----------------|-----------|
+| `openai`       | GPT API를 활용한 발표 자동 채점 및 피드백 생성 |
+| `streamlit`    | 점수 시각화 UI를 구성하는 프론트엔드 웹앱 구현 |
+| `matplotlib`   | 점수 시각화용 그래프 (막대, 도넛, 방사형 차트 등) 생성 |
+| `pandas`       | 채점 결과를 표 형태로 정리하고 Excel 파일로 저장 |
+| `fpdf`         | 채점 결과 요약을 PDF로 출력 (한글 폰트 포함) |
+| `librosa`      | 오디오 파일 로딩 및 음성 전처리 처리 |
+| `soundfile`    | `librosa`와 함께 사용되어 오디오 파일을 처리 |
+
+
+---
 ## 🚀 실행 방법
 
 > 💡 아래 순서대로 진행하면 **백엔드 서버 + 프론트엔드 UI**가 연결된 채점 시스템을 실행할 수 있습니다.
