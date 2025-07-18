@@ -17,27 +17,18 @@ AI를 활용하여 **발표를 녹음하고**, 기준에 따라 **자동 채점 
 ## 📸 대회 현장 스케치
 
 <table>
-  <tr>
-    <td align="center">
-      <img src="readmeimg/무박2일참여.jpg" alt="무박 2일 대회 참여" height="400"/><br>무박 2일 대회 참여
-    </td>
-    <td align="center">
-      <img src="readmeimg/상장수여.jpg" alt="상장 수여" height="400"/><br>상장 수여
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="readmeimg/상장수여2.jpg" alt="시상식 전경" height="400"/><br>시상식 전경
-    </td>
-    <td align="center">
-      <img src="readmeimg/기념사진.jpg" alt="단체 기념 사진" height="400"/><br>단체 기념 사진
-    </td>
-  </tr>
+<tr><td align="center"><img src="readmeimg/무박2일참여.jpg" alt="무박 2일 대회 참여" height="400"/><br>무박 2일 대회 참여</td>
+<td align="center"><img src="readmeimg/기념사진.jpg" alt="단체 기념 사진" height="400"/><br>단체 기념 사진</td></tr>
+<tr><td align="center"><img src="readmeimg/상장수여2.jpg" alt="시상식 전경" height="400"/><br>시상식</td>
+<td align="center"><img src="readmeimg/상장수여.jpg" alt="상장 수여" height="400"/><br>상장 수여</td></tr>
 </table>
-> 👨‍💻 아이디어 구상부터 발표까지, OvernightAI 팀의 대회 참여 현장 모습입니다.
+ > 👨‍💻 아이디어 구상부터 발표까지, OvernightAI 팀의 대회 참여 현장 모습입니다.
 
 ---
+# 📂 PPT 발표 자료 
 
+- 해당 PPT는 발표 당시에 사용한 자료로, 시스템의 전체 흐름과 구성 요소를 보다 자세히 설명하고 있습니다.  
+- 필요하신 분들은 아래 링크를 통해 다운로드하실 수 있습니다.  
 📽️ [2025 동의 AI·SW 대회 발표 PPT 다운로드](https://github.com/myname-jin/OvernightAI/raw/main/readmeimg/2025동의AISW대회-AI%20기반%20발표%20채점%20도우미%20시스템-무박2일.pptx)
 
 ---
@@ -45,8 +36,8 @@ AI를 활용하여 **발표를 녹음하고**, 기준에 따라 **자동 채점 
 ### 📌 소개 / 목적
 
 - **공정하고 일관된 평가**: 누구나 같은 기준으로 평가  
-- **시간 절약**: 반복 채점을 자동화  
-- **발표력 향상**: 피드백 기반 자기 개선
+- **시간 절약**: 반복 채점을 자동화 
+- **발표력 향상**: 기준을 미리 입력 후 발표 연습을 할 수 있게된다.
 
 ---
 
