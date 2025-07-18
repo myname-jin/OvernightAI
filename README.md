@@ -38,7 +38,7 @@ AI를 활용하여 **발표를 녹음하고**, 기준에 따라 **자동 채점 
 
 ---
 
-📽️ [OvernightAI 발표 PPT 다운로드](assets/presentation.pptx)
+📽️ [2025 동의 AI·SW 대회 발표 PPT 다운로드](https://github.com/myname-jin/OvernightAI/raw/main/readmeimg/2025동의AISW대회-AI%20기반%20발표%20채점%20도우미%20시스템-무박2일.pptx)
 
 ---
 ## 🧾 프로그램 소개
